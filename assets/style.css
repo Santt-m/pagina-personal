@@ -29,11 +29,10 @@ body{
 }
 main{
     width: 100%;
+    display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    align-items: center;
-    display: flex;
-
+    align-items: center;    
 }
 
 /* estilo nav */
@@ -132,7 +131,7 @@ input{
 }
 .me-text{
     margin-left: 20px;
-    width: 70%;
+    max-width: 70%;
     min-height: 250px;
     max-height: 400px;
 
